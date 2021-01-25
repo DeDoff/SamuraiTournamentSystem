@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <DebugType>portable</DebugType>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SamuraiService.ServiceInterface\SamuraiService.ServiceInterface.csproj" />
+    <ProjectReference Include="..\SamuraiService.ServiceModel\SamuraiService.ServiceModel.csproj" />
+    <PackageReference Include="Microsoft.Extensions.Primitives" Version="5.0.0" />
+
+    <PackageReference Include="NUnit" Version="3.12.*" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.17.*" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.8.*" />
+    <PackageReference Include="ServiceStack" Version="5.*" />
+    <PackageReference Include="ServiceStack.Kestrel" Version="5.*" />
+  </ItemGroup>
+
+</Project>

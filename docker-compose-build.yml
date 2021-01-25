@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+    samurai.api:
+      image: ${DOCKER_REGISTRY}samurai.api
+      container_name: samurai.api
+      build:
+        context: .
+        dockerfile: ./SamuraiService/SamuraiService/Dockerfile
+

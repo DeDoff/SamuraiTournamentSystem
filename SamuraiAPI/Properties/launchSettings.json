@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SamuraiAPI": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
